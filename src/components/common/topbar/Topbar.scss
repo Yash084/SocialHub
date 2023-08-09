@@ -1,0 +1,92 @@
+.topbar-main{
+    width: 100%;
+    height: 70px;
+    background-color: rgba(255,255,255,0.87);
+    display: flex;
+    align-items: center;
+    position: relative;
+
+.linkedinLogo {
+    width: 50px;
+    margin-left: 20px;
+  }
+  
+
+
+  .react-icons{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 55%;
+      margin-left: 30px;
+  }
+
+
+  .react-icon{
+    cursor: pointer;
+    color: #787878;
+  }
+
+  .react-icon:hover{
+    color: black;
+  }
+
+
+
+
+  .popup-position {
+    position: absolute;
+    top: 60px;
+    right: 10px;
+  }
+
+
+}
+
+
+
+.search-results{
+  width: 240px;
+  height: auto;
+  background-color: white;
+  position: absolute;
+  left: 100px;
+  top: 60px;
+  border-radius: 10px;
+  border: 1px solid #bbbbbb;
+
+
+
+  .search-inner{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    img{
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      object-fit: cover;
+
+    }
+
+    .name{
+      font-family: system-ui;
+      font-size: 18px;
+    }
+  }
+
+  .search-inner:hover{
+    background-color: #bbbbbb;
+  }
+}
+
+
+.user-icon{
+  width: 30px;
+  position: absolute;
+  right: 30px;
+  cursor: pointer;
+}

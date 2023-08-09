@@ -1,0 +1,14 @@
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+
+    p {
+        font-family: system-ui;
+        font-weight: 500;
+        color: rgba(0, 0, 0, 0.9);
+        font-size: 20px;
+    }
+}

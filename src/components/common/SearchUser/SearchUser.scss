@@ -1,0 +1,32 @@
+.search-users{
+    width: 20%;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    .close-icon{
+        margin-left: -30px;
+        color: #707070;
+    }
+    input{
+        height: 30px;
+        width: 100%;
+        background-color: whitesmoke;
+        border: 1px solid #bbbbbb;
+        border-radius: 10px;
+        color: #212121;
+        padding-left: 10px;
+        outline: none;
+        font-size: 14px;
+        font-family: system-ui;
+    }
+
+    input:focus{
+        border: 1px solid #707070;
+    }
+
+
+    ::placeholder{
+        font-size: 14px;
+        font-family: system-ui;
+    }
+}

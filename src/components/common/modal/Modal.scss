@@ -1,0 +1,31 @@
+.modal-input{
+    border: none;
+    background-color: white;
+    outline: none;
+    color:  black;
+    font-size: 17px;
+    font-family: system-ui, sans-serif;
+    width: 100%;
+    resize: none;
+
+}
+
+.pitcure-icon{
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+
+.preview-image{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.posts-body{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}

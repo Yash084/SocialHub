@@ -1,0 +1,63 @@
+.profile-card {
+    width: auto;
+    height: 65vh;
+    background-color: whitesmoke;
+    margin: 30px;
+    border-radius: 5px;
+    padding: 20px;
+    position: relative;
+
+    .edit-btn {
+        position: absolute;
+        right: 20px;
+        font-family: system-ui, sans-serif;
+
+        button {
+            cursor: pointer;
+            background-color: white;
+            color: black;
+            border: 1px solid black;
+            padding: 5px 10px 5px 10px;
+            border-radius: 4px;
+        }
+    }
+
+
+
+    .profile-edit-input {
+        display: grid;
+        margin-top: 40px;
+        gap: 20px;
+
+        .edit-input {
+            width: 90%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            background-color: white;
+            color: black;
+        }
+    }
+
+    .save {
+
+        display: flex;
+        justify-content: center;
+
+
+        .save-btn {
+            cursor: pointer;
+            background-color: white;
+            color: black;
+            border: none;
+            padding: 5px 10px 5px 10px;
+            border-radius: 20px;
+            margin-top: 50px;
+            width: 200px;
+            height: 40px;
+            background-color: #0072b1;
+
+        }
+    }
+}

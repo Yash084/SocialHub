@@ -1,0 +1,110 @@
+.like-container{
+    display: flex;
+    // align-items: center;
+    flex-direction: column;
+    // justify-content: flex-start;
+    gap: 10px;
+    padding: 7px 10px;
+    margin-bottom: -20px;
+
+
+    .like-comment{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+
+    }
+
+    
+    .comment-input{
+        height: 35px;
+        background-color: whitesmoke;
+        padding-left: 7px;
+        border-radius: 30px;
+        border: 1px solid #323131;
+    }
+
+    .comment-input:focus {
+        outline: 1px solid #100f0f;
+        color:  #323131;
+        font-family: system-ui;
+        font-size: 16px;
+
+    }
+
+    .add-comment-btn{
+        width: 150px;
+        height: 35px;
+        background-color:  #0a66c2;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        margin:  15px 0 15px 0;
+        border-radius: 30px;
+    }
+
+    .all-comments{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: rgb(227, 227, 227);
+        border-radius: 15px;
+        position: relative;
+        margin: 10px 0;
+
+        .name{
+            color: #130f0f;
+            text-decoration: none;
+            margin: 10px 0  0  10px;
+        }
+
+        .comment{
+            margin-left: 10px;
+            margin-top: 0px;
+            color: rgb(72, 71, 71);
+        }
+
+        .timestamp{
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            color: rgb(72, 71, 71);
+        }
+    }
+    
+    .hr-line{
+        margin-top: -20px;
+        hr{
+            border: 1px solid rgb(165, 159, 159);
+        }
+    }
+
+
+    p{
+        font-family: system-ui, sans-serif;
+        font-weight: 600;
+        color: rgba (0,0,0,0.835);
+        font-size: 13px;
+        margin-left: 5px;
+        
+    }
+
+
+    .likes-comment-inner{
+         display: flex;
+         align-items: center;
+         width: 60px;
+         margin-top: -20px;
+
+         .blue{
+            color: #0a66c2;
+         }
+
+         p{
+            font-family: system-ui;
+            font-weight: 600;
+            color: rgba(58,58,58,0.835);
+            font-size: 16px;
+
+         }
+    }
+}
